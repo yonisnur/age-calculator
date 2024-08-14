@@ -8,7 +8,7 @@ root.title('Age Calculator')
 root.geometry('800x600+200+100')
 root.resizable(False,False)
 root.configure(bg = 'gray')
-image_icon = PhotoImage(file ='C:/Users/dell/Downloads/Age calculator  .png')
+image_icon = PhotoImage(file ='Age calculator  .png')
 age_calculator = Label(root, image = image_icon,bg = 'gray')
 
 age_calculator.place(x=250, y=15)
